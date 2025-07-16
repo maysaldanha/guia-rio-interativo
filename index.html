@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guia Interativo RJ</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon.png" />
+</head>
+<body>
+  <h1>Guia Interativo Rio de Janeiro</h1>
+  <p>Explore o roteiro completo por dias, com QR codes, feiras, opções econômicas e mais.</p>
+  <ul>
+    <li><a href="#">Dia 1: Jardim Botânico e Lagoa</a></li>
+    <li><a href="#">Dia 2: Copacabana, Leme e Urca</a></li>
+    <!-- Conteúdo real será muito mais detalhado -->
+  </ul>
+  <footer>Instale este app no seu celular para acesso offline!</footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
